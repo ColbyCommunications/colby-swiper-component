@@ -4,13 +4,13 @@ An extensible carousel and slider component
 
 ## Props
 
-| Name           | Description                                                                        | Type    | Default Value |
-| -------------- | ---------------------------------------------------------------------------------- | ------- | ------------- |
-| slides         | Array of slide components. Can be any type of markup                               | array   | \*Required    |
-| params         | Swiper parameters. For full list look [here](https://swiperjs.com/api/#parameters) | object  | See here      |
-| template       | A custom or pre-existing template                                                  | node    | See here      |
-| autoHeight     | Whether to enable the Swiper autoHeight feature                                    | boolean | false         |
-| dynamicBullets | Whether to enable the Swiper dynamicBullets feature                                | boolean | false         |
+| Name           | Description                                                                        | Type    | Default Value                                                                                                          |
+| -------------- | ---------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| slides         | Array of slide components. Can be any type of markup                               | array   | \*Required                                                                                                             |
+| params         | Swiper parameters. For full list look [here](https://swiperjs.com/api/#parameters) | object  | See [here](https://github.com/ColbyCommunications/colby-swiper-component/blob/master/src/index.js#L28)                 |
+| template       | A custom or pre-existing template                                                  | node    | See [here](https://github.com/ColbyCommunications/colby-swiper-component/blob/master/src/templates/Default/Default.js) |
+| autoHeight     | Whether to enable the Swiper autoHeight feature                                    | boolean | false                                                                                                                  |
+| dynamicBullets | Whether to enable the Swiper dynamicBullets feature                                | boolean | false                                                                                                                  |
 
 ## Usage
 

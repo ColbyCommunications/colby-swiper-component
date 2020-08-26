@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable import/no-unresolved */
 import React, { Component } from 'react';
 import Swiper from 'react-id-swiper';
@@ -57,8 +58,8 @@ export default class ColbySwiper extends Component {
             })}
             ref={this.ref}
         >
-            {this.props.slides.map(slide => (
-                <div key={slide.content} className={`${Style[slide.type]}`}>
+            {this.props.slides.map((slide, index) => (
+                <div key={index} className={`${Style[slide.type]}`}>
                     {slide.content}
                 </div>
             ))}

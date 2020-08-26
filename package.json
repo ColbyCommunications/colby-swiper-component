@@ -1,6 +1,6 @@
 {
     "name": "@colbycommunications/colby-swiper-component",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An extensible carousel and slider component",
     "main": "dist/index.js",
     "author": "Brandon K. Waltz",

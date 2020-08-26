@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/display-name */
 /* eslint-disable import/no-unresolved */
 import React, { useRef } from 'react';
@@ -10,8 +11,8 @@ const ColbySwiperDefaultTemplate = props => {
     const ref = useRef(null);
     return (
         <Swiper {...props.params} ref={ref}>
-            {props.slides.map(slide => (
-                <div key={slide.content} className={`${Style[slide.type]}`}>
+            {props.slides.map((slide, index) => (
+                <div key={index} className={`${Style[slide.type]}`}>
                     {slide.content}
                 </div>
             ))}
